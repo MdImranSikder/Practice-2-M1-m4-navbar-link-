@@ -1,0 +1,30 @@
+/* Navbarer design */
+nav>ul{
+    display: flex;
+    border: 4px salmon;
+}
+nav li:hover{
+    padding: 0px;
+    
+    background-color: yellowgreen ;
+}
+nav li{
+   
+    list-style: none;
+    margin-right: 400px;
+   
+}
+nav li a{
+    text-decoration: none;
+}
+/* nested menu */
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: aquamarine;
+    padding: 20px;
+
+}
+nav li:hover> .dropdown{
+    display: block;
+}
